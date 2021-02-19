@@ -364,7 +364,9 @@ git add .  (adding all the files with ., or git add index.html to add files one 
 git commit -m "message" (commit snapshot of current state of project)
 git log (to see history of commits)
 commit to github: (get commants in github account)
-git remote add origin https://github.com/WebDevAdriaan/udemy-TeaStation-project.git
+this does not work: git remote add origin https://github.com/WebDevAdriaan/udemy-TeaStation-project.git, because use command: git remote --verbose, it will show that this file was already added to john smilga's repository. change add to set-url:
+git remote set-url origin https://github.com/WebDevAdriaan/udemy-TeaStation-project.git
 git branch -M main
 git push -u origin main
+now moved to dropbox
 -->
